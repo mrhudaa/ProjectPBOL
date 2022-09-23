@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="326.0" prefWidth="308.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="project.penjualan.FXMLInputBrgController">
+   <children>
+      <Text layoutX="51.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input / Update Barang">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtkodebrg" layoutX="130.0" layoutY="89.0" />
+      <TextField fx:id="txtnamabrg" layoutX="130.0" layoutY="152.0" />
+      <TextField fx:id="txttarif" layoutX="130.0" layoutY="207.0" />
+      <Text layoutX="44.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kode Barang" />
+      <Text layoutX="44.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Barang" />
+      <Text layoutX="44.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tarif" />
+      <Button fx:id="btnquit" layoutX="238.0" layoutY="275.0" mnemonicParsing="false" onAction="#btnquitklik" text="Quit" />
+      <Button fx:id="btnbatal" layoutX="178.0" layoutY="275.0" mnemonicParsing="false" onAction="#btnbatalklik" text="Batal" />
+      <Button fx:id="btnsimpan" layoutX="103.0" layoutY="275.0" mnemonicParsing="false" onAction="#btnsimpanklik" text="SImpan" />
+   </children>
+</AnchorPane>
